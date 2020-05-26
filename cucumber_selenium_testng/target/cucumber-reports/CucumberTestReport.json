@@ -1,0 +1,150 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login to Zero Bank with valid credentail",
+        "description": "",
+        "id": "login-feature-of-zero-bank;login-to-zero-bank-with-valid-credentail",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 23925887500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Navigate to SignIn Page",
+            "match": {
+              "location": "LoginStepDefinition.navigate_to_SignIn_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 607044700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Enter valid username and password",
+            "match": {
+              "location": "LoginStepDefinition.enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2541483300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click SignIn",
+            "match": {
+              "location": "LoginStepDefinition.click_SignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 106856800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User successfully naviagted to Account Summary page",
+            "match": {
+              "location": "LoginStepDefinition.user_successfully_naviagted_to_Account_Summary_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login feature of Zero Bank",
+    "description": "",
+    "id": "login-feature-of-zero-bank",
+    "keyword": "Feature",
+    "uri": "login.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Logout the particular user",
+        "description": "",
+        "id": "logout-feature-of-zero-bank;logout-the-particular-user",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 10000606900,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Navigate to SignIn Page",
+            "match": {
+              "location": "LoginStepDefinition.navigate_to_SignIn_Page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 474290600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter valid username and password",
+            "match": {
+              "location": "LoginStepDefinition.enter_valid_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2741053500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click SignIn",
+            "match": {
+              "location": "LoginStepDefinition.click_SignIn()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1172781100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click profile name and click Logout",
+            "match": {
+              "location": "LogoutStepDefinition.click_profile_name_and_click_Logout()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15632600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User successsfully navigate to home page",
+            "match": {
+              "location": "LogoutStepDefinition.user_successsfully_navigate_to_home_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Logout feature of Zero Bank",
+    "description": "",
+    "id": "logout-feature-of-zero-bank",
+    "keyword": "Feature",
+    "uri": "logout.feature"
+  }
+]
